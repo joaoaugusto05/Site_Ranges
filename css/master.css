@@ -1,0 +1,253 @@
+*{
+  box-sizing: border-box;
+}
+html{
+  font-family: sans-serif;
+}
+h1, h2, h3, h4, h5, h6{
+  font-family: "Oxygen", Arial;
+}
+.title{
+  text-align: center;
+  margin: .5em;
+}
+
+nav{
+  background-color: #612674;
+}
+
+nav ul{
+  font-family: Verdana;
+  margin: 0;
+  padding: 0;
+}
+nav a{
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  display: block;
+  padding: 1em;
+}
+nav a:hover{
+  background-color: rgb(130, 30, 135);
+}
+header{
+  box-shadow: 0 0 1em black;
+
+  z-index: 2;
+}
+
+h1{
+  color: #612674;
+  text-align: center;
+}
+.top-content{
+  padding: 1em;
+}
+.top-content img{
+  max-width: 0;
+}
+
+.Presentation{
+  text-align: center;
+  line-height: 1.6em;
+  background: #f6f6f6;
+
+}
+
+.card{
+  margin-bottom: 2em;
+}
+.Presentation span[class^=icon]{
+    font-size: 3.5em;
+    color: #652e78;
+}
+.Presentation img{
+  margin: 0 auto;
+  size: 100%;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+.Presentation p{
+  font-size: 0.9em;
+  text-align: center;
+  margin: 3em .8em .1em .8em;
+  color: rgb(130, 30, 135);
+}
+
+.default-btn{
+  background-color: #2fbabe;
+  color: white;
+  padding: 1em 2em;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 0.5em;
+}
+.default-btn a{
+  text-decoration: none;
+  color: white;
+}
+.Presentation .default-btn{
+  margin: 1.5em;
+}
+
+h2{
+  color: #612674;
+  font-variant: small-caps;
+  font-size:  1.7em;
+
+}
+.Design{
+  margin: 1.5em;
+  line-height: 1.5em;
+  text-align: center;
+}
+.Design h2:nth-of-type(n+2){
+  margin-top: 3em;
+}
+.Design .default-btn{
+  margin-top: 2em;
+}
+footer{
+  text-align: center;
+  font-size: 0.7em;
+  text-decoration: none;
+}
+footer img{
+  display: inline-block;
+}
+footer a{
+  color: white;
+  text-decoration: none;
+}
+
+#icons{
+  background: #23303e;
+  text-decoration: none;
+  padding: 0.8em;
+}
+#last{
+  background: rgb(32, 34, 38);
+  padding: 1em;
+  color: white;
+  font-family: sans-serif;
+}
+footer span[class^=icon]{
+  margin-top: 1em;
+    font-size: 2em;
+    color: white;
+    padding: 0.4em;
+}
+.clearfix:after{
+  content: '';
+  display: block;
+  clear: both;
+}
+
+@media screen and (min-width: 48.75em){
+  .top-content{
+    background-color: #722f87;
+
+  }
+  .top-content h1, .top-content p{
+    color: white;
+  }
+
+  section{
+    width: 40%;
+    float: left;
+    margin: 5%;
+  }
+  .Design{
+    text-align: left;
+
+  }
+
+  .Design .default-btn{
+
+    float: right;
+    display: ;
+
+  }
+
+  nav ul li{
+    display: block;
+    color: white;
+
+
+  }
+  nav{
+  text-align: right;
+  }
+  nav a{
+    color: white;
+    display: inline-block;
+    color: #722f87;
+  }
+  .top-content img{
+    all: unset;
+    display: inline-block;
+    max-width: 10%;
+
+  }
+
+}
+
+@media screen and (min-width:67.5em){
+  .title{
+    text-align: left;
+    margin: 0;
+
+  }
+  .title img{
+    width: 30%;
+    padding-bottom: 0;
+    margin-bottom: 0;
+  }
+header{
+  position: relative;
+
+}
+  nav{
+    background: white;
+
+  }
+  nav ul {
+      position: absolute;
+      right: 0;
+      bottom: 0;
+      margin-top: 0.5em;
+
+  }
+  nav ul li{
+    padding: 0;
+    margin: 0;
+    color: #612674;
+  }
+  nav a{
+    padding: .7em;
+  }
+  nav a:hover{
+    background-color: #a36eb4;
+  }
+.top-content{
+  padding-top: 20%;
+  padding-bottom: 20%;
+  background-image: url("../images/bg_topo_1600x1374.jpg");
+  background-size: cover;
+}
+
+section{
+  max-width: 15%;
+  float: left;
+  margin: 5%;
+  line-height: 1.8em;
+}
+
+.Design article{
+
+  display: inline-block;
+  max-width: 49%;
+  line-height: 1.8em;
+}
+}
